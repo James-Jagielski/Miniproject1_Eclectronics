@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# RC0603FR-0760R4L
+#
+DEF RC0603FR-0760R4L R 0 40 N N 1 L N
+F0 "R" 39 109 50 H V L BNN
+F1 "RC0603FR-0760R4L" -123 -344 50 H V L BNN
+F2 "RESC1608X60N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "±1%" 0 0 50 H I L BNN "TOLERANCE"
+F5 "60.4 Ohms" 0 0 50 H I L BNN "VALUE"
+F6 "1/10 W" 0 0 50 H I L BNN "WATTAGE"
+F7 "RC0603FR-0760R4L" 0 0 50 H I L BNN "MPN"
+F8 "Yageo" 0 0 50 H I L BNN "SUPPLIER"
+F9 "-" 0 0 50 H I L BNN "OC_FARNELL"
+F10 "73P9549" 0 0 50 H I L BNN "OC_NEWARK"
+DRAW
+P 2 0 0 8 125 50 175 -50 N
+P 2 0 0 8 175 -50 225 50 N
+P 2 0 0 8 225 50 275 -50 N
+P 2 0 0 8 275 -50 325 50 N
+P 2 0 0 8 325 50 375 -50 N
+P 2 0 0 8 100 0 125 50 N
+P 2 0 0 8 375 -50 400 0 N
+X ~ 2 0 0 100 R 40 40 0 0 P 
+X ~ 1 500 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

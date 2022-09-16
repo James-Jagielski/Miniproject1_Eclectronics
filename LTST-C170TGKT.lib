@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# LTST-C170TGKT
+#
+DEF LTST-C170TGKT D 0 40 N N 1 L N
+F0 "D" -80 160 50 H V L BNN
+F1 "LTST-C170TGKT" -80 -226 50 H V L BNN
+F2 "DIOC200X125X110" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "LiteOn" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 100 -50 0 0 N
+P 2 0 0 10 0 0 100 50 N
+P 2 0 0 10 0 -50 0 0 N
+P 2 0 0 10 0 0 0 50 N
+P 2 0 0 10 100 -50 100 0 N
+P 2 0 0 10 100 0 100 50 N
+P 2 0 0 6 100 0 0 0 N
+P 2 0 0 6 70 80 15 135 N
+P 2 0 0 6 25 75 -30 130 N
+P 4 0 0 6 15 135 50 120 30 100 15 135 f
+P 4 0 0 6 -30 130 5 115 -15 95 -30 130 f
+X ~ - -100 0 100 R 40 40 0 0 P 
+X ~ + 200 0 100 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
